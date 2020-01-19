@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+body
+{
+	background-image: url("./images/piece.jpg");
+	text-align:center;
+	background-repeat: no-repeat;
+	/* background-position: center; */
+	/* background-attachement: fixed; */ 
+	background-size:cover;
+	position:relative;
+	min-height:380px;
+	
+}
+
+.container{
+	position: absolute;
+	left:340px;
+	margin:20px;
+	padding:20px;
+	background-color:white;
+	opacity:0.9;
+	border-radius:15px;
+}
+
+.btn{
+	background-color: #4CAF50;
+	padding:15px 25px;
+	border:none;
+	cursor:pointer;
+	width:100%;
+	opacity:1;
+	box-shadow:0 5px #666;
+	front-size:24px;
+	text-align:center;
+	outline: none;
+	color:#fff;
+	border-radius:15px;
+	position:absolute;
+	left:-8px;
+}
+
+.btn:hover{
+	background-color:#3e8e41	
+}
+.btn:active{
+	background-color: #3e8e41;
+	box-shadow:0 5px #666;
+	transform: translateY(4px);
+}
+
+.txt{
+	font-size: 25px;
+}
+
+input{
+	font-size: 25px;
+	margin:10px;	
+}

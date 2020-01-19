@@ -1,0 +1,97 @@
+@charset "ISO-8859-1";
+
+
+
+body{
+	background-image:url(images/slider-01.jpg) ;
+}
+.bouton{
+	padding: 0px 18px ;
+	cursor: pointer;
+	background: transparent;
+	border: 5px;
+	outline: none;
+	position: relative;
+	background: linear-gradient(to right,#04FDD4,#124BF0);
+	height: 30%;
+	width: 200px;
+	border-radius: 20px;	
+}
+.formulaire{
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+	margin: 40px;
+	background: #EBF0EF;
+	padding : 5px;
+	overflow: hidden;
+}
+/*#boutonid{	
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 200px;
+	height: 30%;
+	background: linear-gradient(to right,#04FDD4,#124BF0);
+	border-radius: 20px;
+	transition: .5s;
+}*/
+section
+{
+    background-color:rgba(0,64,64,0.1);
+    border-radius: 30px;
+    width: 500px;
+  	text-align:center;
+}
+.total
+{
+    background-color:rgba(0,64,64,0.1);
+    border-radius: 10px;
+    width: 400px;
+	
+	margin-left: 50px;
+    margin-bottom: 10px;
+}
+.revenu {
+   	position:relative;
+   	right: 50px;
+	width: 220px;
+	height: 170%;
+	
+	border-radius: 30px;
+	display: inline-block;
+  }
+.revenu1 {
+    position:relative;
+   	right:30px;
+	width: 220px;
+	height: 100%;
+	
+	border-radius: 30px;
+	display: inline-block;
+  }
+.revenu2 {
+   
+    right: 0px;
+	width: 220px;
+	
+	border-radius: 30px;
+	display: inline-block;
+  }
+
+#entete1{
+	background-image: url(images/statok.jpg);
+	background-size: cover;
+	border-radius: 20px;
+}
+#entete2{
+	background-image: url(images/stat.jpg);
+	background-size: cover;
+	border-radius: 20px;
+}
+#entete3{
+	background-image: url(images/stat1.jpg);
+
+	background-size: cover;
+	
+}

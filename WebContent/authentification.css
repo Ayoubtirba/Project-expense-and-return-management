@@ -1,0 +1,174 @@
+@charset "ISO-8859-1";
+/* .centre{
+	text-align: center;
+}
+
+body
+{
+color:black;
+background-image: url("./images/piece.jpg");
+background-attachement: fixed;
+background-size: cover;
+margin:auto;
+
+background-color : RGBa(0, 255, 0, 0.5);
+text-align: center;  
+}
+ */
+ 
+ *{
+	margin:0;
+	padding: 0;
+}
+section{
+	
+	position:absolute;
+}
+.accueil{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/piece.jpg) ;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.formulaire{
+	width: 390px;
+	height: 500px;
+	position: relative;
+	margin: 6% auto;
+	background: #EBF0EF;
+	padding : 5px;
+	overflow: hidden;
+	border-radius: 30px;
+	left:170px;
+	display:inline-block;
+	opacity:0.9;
+}
+nav{
+	width: 500px;
+text-align: justify;
+height: 500px;
+	left:40px;
+	position: relative;
+	margin: 6% auto;
+	background: #848484;
+	padding : 5px;
+	overflow: hidden;
+	border-radius: 30px;
+	opacity:0.7;
+	display:inline-block;
+display:inline-block;
+}
+.bouton-form{
+	width: 240px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #28ADEC;
+	border-radius: 30px;
+	
+}
+.bouton{
+	padding: 25px 18px ;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+
+	outline: none;
+
+	position: relative;
+}
+
+#boutonid{
+		
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 130px;
+	height: 100%;
+	background: linear-gradient(to right,#04FDD4,#124BF0);
+	border-radius: 30px;
+	transition: .5s;
+}
+
+label{
+	color:#798081;
+	margin-top : -1px;
+}
+.icon-resosocio{
+	text-align: center;
+	margin: 30px auto;
+
+}
+.icon-resosocio img{
+	width: 30px;
+	margin: 0 12px;
+	box-shadow: 0 0 20px 0 #124BF0;
+	cursor:pointer;
+	border-radius: 50px;
+}
+
+.entre-form{
+		top: 180px;
+		position: absolute;
+		width: 280px;
+		transition: .5s;
+}
+.entre-elt{
+	width: 100%;
+	height: 30px;
+	padding: 2px 0;
+	margin :1px 0;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+
+	/*background-color: #04C4FD; 
+	border-radius: 30px;
+	position: relative;
+	margin-left: 55px ;
+	margin-top: 30px;
+	color: white;
+	font-weight: bold;*/
+}
+.btn-ok{
+	position: relative;
+	margin-left: 160px ;
+	background-color: white;
+	font-family: 'Arial' ;
+	font-weight: bold;
+	color: gray;
+	box-shadow: 0 0 0 0;
+	width: 85%;
+	padding:10px 40px ;
+	cursor: pointer;
+	display: block; ;
+	margin: auto;
+	background:linear-gradient(to right,#04FDD4,#124BF0) ;
+	border :0;
+	outline: none;
+	border-radius: 30px;
+}
+.btn-ok:hover{
+	background-color:#3e8e41	
+}
+.btn-ok:active{
+	background-color: #3e8e41;
+	box-shadow:0 5px #666;
+	transform: translateY(4px);
+}
+
+
+
+
+#connexion{
+	left: 50px;
+}
+#inscription{
+	left: 450px;
+}
+
+	
